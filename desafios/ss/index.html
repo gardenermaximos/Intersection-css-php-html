@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeekIA - Especialista Nerd</title>
+    <link rel="stylesheet" href="style.css">
+</head><body>
+    <div class="container">
+        <img src="logologo.jpg" width="500" alt="GeekIA Logo">
+        <h2>Especialista em animes, mangás e livros</h2>
+        <p>Responda e descubra o que combina com você.</p>
+        <form action="processa.php" method="POST">
+            <div class="form-group">
+                <label>O que você prefere?</label>
+                <select name="tipo" required>
+                    <option value="">Selecione...</option>
+                    <option value="Anime">Anime</option>
+                    <option value="Mangá">Mangá</option>
+                    <option value="Livro">Livro</option>
+                </select></div>
+            <div class="form-group">
+                <label>Qual gênero você prefere?</label>
+                <select name="genero" required>
+                    <option value="">Selecione...</option>
+                    <option value="Ação">Ação</option>
+                    <option value="Romance">Romance</option>
+                    <option value="Fantasia">Fantasia</option>
+                    <option value="Terror">Terror</option>
+                    <option value="Comédia">Comédia</option>
+                </select></div>
+            <div class="form-group">
+                <label>Como gosta das histórias?</label>
+                <select name="tamanho" required>
+                    <option value="">Selecione...</option>
+                    <option value="Curtas">Curtas e rápidas</option>
+                    <option value="Longas">Longas e envolventes</option>
+                </select></div>
+            <div class="form-group">
+                <label>Você prefere:</label>
+                <select name="estilo" required>
+                    <option value="">Selecione...</option>
+                    <option value="Conhecido">Algo conhecido</option>
+                    <option value="Diferente">Algo diferente</option>
+                </select>            </div>
+            <button type="submit">Recomendar 🚀</button>
+        </form></div>
+</body></html>

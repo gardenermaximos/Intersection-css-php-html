@@ -1,0 +1,45 @@
+title{
+    font-size:15px;
+    font-family: fantasy;
+}
+
+body{
+    font-family: arial, Arial, Helvetica, sans-serif;
+    background-color: beige;
+    text-align: center;
+    margin:0;
+    padding:20px;}
+
+img{ border-radius: 100px;}
+
+.container{
+    background-color: darkolivegreen;
+    border: 2px solid #ddd;
+    max-width: 500px;
+    border-radius: 20px;
+    margin:0 auto;
+    padding: 20px;}
+
+.form-group{
+    margin-bottom: 15px;
+    text-align: left;}
+
+label{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;}
+
+select{
+    width: 100%;
+    border: 1px;
+    padding: 8px;}
+
+button{
+    background-color: rgb(153, 209, 148);
+    color: white;
+    border-radius: 1px;
+    width: 100%;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+}
