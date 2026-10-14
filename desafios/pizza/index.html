@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <img src="" alt="Logo da Pizzaria">
+        <h1>🍕 Monte sua Pizza</h1>
+        <form action="pedido.php" method="POST">
+            <h3>1. Tamanho:</h3>
+            <label><input type="radio" name="tamanho" value="Broto" checked> Broto (R$ 45)</label>
+            <label><input type="radio" name="tamanho" value="Grande"> Grande (R$ 65)</label>
+
+            <h3>2. Sabores (1 ou 2):</h3>
+            <label><input type="checkbox" name="sabores[]" value="Calabresa"> Calabresa</label>
+            <label><input type="checkbox" name="sabores[]" value="Mussarela"> Mussarela</label>
+            <label><input type="checkbox" name="sabores[]" value="Frango"> Frango</label>
+
+            <h3>3. Refrigerante:</h3>
+            <select name="refri">
+                <option value="Nenhum">Nenhum</option>
+                <option value="Coca">Coca 2L (R$ 12)</option>
+                <option value="Guarana">Guaraná 2L (R$ 10)</option>
+            </select>
+
+            <button type="submit">Calcular Total</button>
+        </form>
+    </div>
+</body>
+</html>
